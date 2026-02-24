@@ -2,6 +2,12 @@
 
 AI-powered MRI analysis with interactive diagnosis highlighting.
 
+## How It Works
+
+1. **MedSAM2** segments anatomical regions
+2. **MedGemma** generates diagnosis
+3. **Interactive UI** links text ↔ regions
+
 ## Quick Start
 
 ```bash
@@ -22,12 +28,6 @@ Hover diagnosis text → MRI regions highlight
 2. Upload image in UI
 3. Analysis runs locally
 
-## How It Works
-
-1. **MedSAM2** segments anatomical regions
-2. **MedGemma** generates diagnosis
-3. **Interactive UI** links text ↔ regions
-
 ## Stack
 
 - Next.js 14 + TypeScript
@@ -45,7 +45,8 @@ Hover diagnosis text → MRI regions highlight
     DiagnosisPanel.tsx  # Interactive text
     UploadArea.tsx      # File upload
 /pipeline
-  complete_pipeline.py  # MedSAM2 + MedGemma
+  chekpoints/          # MedSAM2 weights
+  complete_pipeline.py # MedSAM2 + MedGemma
   api.py               # Flask API (local)
 /public/demo
   ankle/               # Pre-generated demo
@@ -60,15 +61,6 @@ python api.py
 ```
 
 Runs on http://localhost:8000
-
-## Features
-
-✅ Real-time region highlighting  
-✅ Hover anatomical terms → see regions  
-✅ Click regions → scroll to text  
-✅ Dark/light theme  
-✅ Demo mode (instant)  
-✅ Custom upload (local backend)
 
 ## Requirements
 
