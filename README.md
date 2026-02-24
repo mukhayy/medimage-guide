@@ -1,6 +1,6 @@
 # MedImage Guide
 
-AI-powered MRI analysis with interactive diagnosis highlighting.
+AI-powered interactive MRI analysis. Powered with MedGemma and MedSAM2
 
 ## How It Works
 
