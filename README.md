@@ -1,4 +1,4 @@
-# MedGemma User Guide
+# MedImage Guide
 
 AI-powered MRI analysis with interactive diagnosis highlighting.
 
