@@ -1,0 +1,13 @@
+# Flask API dependencies
+flask==3.0.0
+flask-cors==4.0.0
+
+# Already needed for pipeline
+torch
+torchvision
+transformers
+accelerate
+opencv-python
+numpy
+pillow
+hydra-core

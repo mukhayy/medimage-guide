@@ -1,0 +1,614 @@
+{
+  "image_info": {
+    "filename": "ankle.png",
+    "num_regions": 24,
+    "width": 1738,
+    "height": 1182
+  },
+  "regions": [
+    {
+      "id": "region_1",
+      "number": 1,
+      "label": "talus",
+      "mentioned_in_diagnosis": false,
+      "bbox": [
+        1069,
+        247,
+        1241,
+        712
+      ],
+      "center": [
+        1155,
+        479
+      ],
+      "area": 43453,
+      "color": [
+        152,
+        229,
+        142
+      ],
+      "confidence": 0.6604006290435791,
+      "stability": 0.8200588226318359
+    },
+    {
+      "id": "region_2",
+      "number": 2,
+      "label": "calcaneus",
+      "mentioned_in_diagnosis": false,
+      "bbox": [
+        1128,
+        690,
+        1380,
+        881
+      ],
+      "center": [
+        1254,
+        785
+      ],
+      "area": 27494,
+      "color": [
+        64,
+        156,
+        121
+      ],
+      "confidence": 0.7962742447853088,
+      "stability": 0.7580359578132629
+    },
+    {
+      "id": "region_3",
+      "number": 3,
+      "label": "navicular",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        508,
+        863,
+        1401,
+        957
+      ],
+      "center": [
+        954,
+        910
+      ],
+      "area": 20513,
+      "color": [
+        238,
+        70,
+        152
+      ],
+      "confidence": 0.693071722984314,
+      "stability": 0.7957725524902344
+    },
+    {
+      "id": "region_4",
+      "number": 4,
+      "label": "medial cuneiform",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        750,
+        820,
+        1028,
+        902
+      ],
+      "center": [
+        889,
+        861
+      ],
+      "area": 16854,
+      "color": [
+        171,
+        124,
+        252
+      ],
+      "confidence": 0.6646466851234436,
+      "stability": 0.8226015567779541
+    },
+    {
+      "id": "region_5",
+      "number": 5,
+      "label": "intermediate cuneiform",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        1070,
+        593,
+        1227,
+        724
+      ],
+      "center": [
+        1148,
+        658
+      ],
+      "area": 13674,
+      "color": [
+        137,
+        166,
+        149
+      ],
+      "confidence": 0.8278931975364685,
+      "stability": 0.8367428183555603
+    },
+    {
+      "id": "region_6",
+      "number": 6,
+      "label": "lateral cuneiform",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        1055,
+        738,
+        1207,
+        842
+      ],
+      "center": [
+        1131,
+        790
+      ],
+      "area": 10666,
+      "color": [
+        153,
+        201,
+        180
+      ],
+      "confidence": 0.4857715368270874,
+      "stability": 0.760858952999115
+    },
+    {
+      "id": "region_7",
+      "number": 7,
+      "label": "tibia",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        1329,
+        133,
+        1372,
+        409
+      ],
+      "center": [
+        1350,
+        271
+      ],
+      "area": 8954,
+      "color": [
+        199,
+        102,
+        51
+      ],
+      "confidence": 0.6916289329528809,
+      "stability": 0.8387394547462463
+    },
+    {
+      "id": "region_8",
+      "number": 8,
+      "label": "fibula",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        1289,
+        552,
+        1367,
+        713
+      ],
+      "center": [
+        1328,
+        632
+      ],
+      "area": 8176,
+      "color": [
+        137,
+        207,
+        87
+      ],
+      "confidence": 0.6645052433013916,
+      "stability": 0.7689196467399597
+    },
+    {
+      "id": "region_9",
+      "number": 9,
+      "label": "tibiotalar joint",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        409,
+        927,
+        496,
+        1049
+      ],
+      "center": [
+        452,
+        988
+      ],
+      "area": 5950,
+      "color": [
+        179,
+        241,
+        237
+      ],
+      "confidence": 0.5334325432777405,
+      "stability": 0.7681331634521484
+    },
+    {
+      "id": "region_10",
+      "number": 10,
+      "label": "talonavicular joint",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        493,
+        923,
+        633,
+        988
+      ],
+      "center": [
+        563,
+        955
+      ],
+      "area": 5477,
+      "color": [
+        70,
+        210,
+        253
+      ],
+      "confidence": 0.731640100479126,
+      "stability": 0.7744892835617065
+    },
+    {
+      "id": "region_11",
+      "number": 11,
+      "label": "calcaneocuboid joint",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        914,
+        703,
+        1000,
+        801
+      ],
+      "center": [
+        957,
+        752
+      ],
+      "area": 5446,
+      "color": [
+        107,
+        71,
+        138
+      ],
+      "confidence": 0.46544700860977173,
+      "stability": 0.7835882306098938
+    },
+    {
+      "id": "region_12",
+      "number": 12,
+      "label": "first metatarsal",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        992,
+        618,
+        1063,
+        687
+      ],
+      "center": [
+        1027,
+        652
+      ],
+      "area": 3489,
+      "color": [
+        98,
+        108,
+        219
+      ],
+      "confidence": 0.5068532228469849,
+      "stability": 0.757325291633606
+    },
+    {
+      "id": "region_13",
+      "number": 13,
+      "label": "second metatarsal",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        1127,
+        845,
+        1257,
+        883
+      ],
+      "center": [
+        1192,
+        864
+      ],
+      "area": 3103,
+      "color": [
+        237,
+        64,
+        239
+      ],
+      "confidence": 0.6099002361297607,
+      "stability": 0.7759454250335693
+    },
+    {
+      "id": "region_14",
+      "number": 14,
+      "label": "third metatarsal",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        1003,
+        740,
+        1066,
+        808
+      ],
+      "center": [
+        1034,
+        774
+      ],
+      "area": 3016,
+      "color": [
+        239,
+        224,
+        239
+      ],
+      "confidence": 0.45052075386047363,
+      "stability": 0.8154030442237854
+    },
+    {
+      "id": "region_15",
+      "number": 15,
+      "label": "fourth metatarsal",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        793,
+        713,
+        884,
+        779
+      ],
+      "center": [
+        838,
+        746
+      ],
+      "area": 2728,
+      "color": [
+        100,
+        157,
+        104
+      ],
+      "confidence": 0.527255117893219,
+      "stability": 0.8492547273635864
+    },
+    {
+      "id": "region_16",
+      "number": 16,
+      "label": "fifth metatarsal",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        867,
+        657,
+        965,
+        701
+      ],
+      "center": [
+        916,
+        679
+      ],
+      "area": 2571,
+      "color": [
+        113,
+        180,
+        100
+      ],
+      "confidence": 0.5038398504257202,
+      "stability": 0.7831200361251831
+    },
+    {
+      "id": "region_17",
+      "number": 17,
+      "label": "lisfranc joint",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        513,
+        889,
+        592,
+        925
+      ],
+      "center": [
+        552,
+        907
+      ],
+      "area": 1953,
+      "color": [
+        184,
+        70,
+        122
+      ],
+      "confidence": 0.5462210774421692,
+      "stability": 0.8041763305664062
+    },
+    {
+      "id": "region_18",
+      "number": 18,
+      "label": "extensor digitorum longus tendon",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        452,
+        918,
+        501,
+        960
+      ],
+      "center": [
+        476,
+        939
+      ],
+      "area": 1546,
+      "color": [
+        216,
+        67,
+        181
+      ],
+      "confidence": 0.5224385857582092,
+      "stability": 0.7850627303123474
+    },
+    {
+      "id": "region_19",
+      "number": 19,
+      "label": "extensor digitorum brevis tendon",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        428,
+        995,
+        472,
+        1048
+      ],
+      "center": [
+        450,
+        1021
+      ],
+      "area": 1506,
+      "color": [
+        138,
+        109,
+        63
+      ],
+      "confidence": 0.4519113600254059,
+      "stability": 0.7846243977546692
+    },
+    {
+      "id": "region_20",
+      "number": 20,
+      "label": "tibialis anterior tendon",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        580,
+        861,
+        629,
+        899
+      ],
+      "center": [
+        604,
+        880
+      ],
+      "area": 1357,
+      "color": [
+        58,
+        139,
+        102
+      ],
+      "confidence": 0.6251932382583618,
+      "stability": 0.7740259766578674
+    },
+    {
+      "id": "region_21",
+      "number": 21,
+      "label": "tibialis posterior tendon",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        846,
+        0,
+        888,
+        35
+      ],
+      "center": [
+        867,
+        17
+      ],
+      "area": 1097,
+      "color": [
+        179,
+        133,
+        141
+      ],
+      "confidence": 0.47682854533195496,
+      "stability": 0.8094449043273926
+    },
+    {
+      "id": "region_22",
+      "number": 22,
+      "label": "flexor digitorum longus tendon",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        875,
+        698,
+        916,
+        728
+      ],
+      "center": [
+        895,
+        713
+      ],
+      "area": 917,
+      "color": [
+        160,
+        237,
+        248
+      ],
+      "confidence": 0.4553797245025635,
+      "stability": 0.7801556587219238
+    },
+    {
+      "id": "region_23",
+      "number": 23,
+      "label": "flexor hallucis longus tendon",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        920,
+        664,
+        962,
+        687
+      ],
+      "center": [
+        941,
+        675
+      ],
+      "area": 743,
+      "color": [
+        221,
+        57,
+        224
+      ],
+      "confidence": 0.48354488611221313,
+      "stability": 0.8179611563682556
+    },
+    {
+      "id": "region_24",
+      "number": 24,
+      "label": "achilles tendon",
+      "mentioned_in_diagnosis": true,
+      "bbox": [
+        862,
+        13,
+        876,
+        30
+      ],
+      "center": [
+        869,
+        21
+      ],
+      "area": 177,
+      "color": [
+        84,
+        130,
+        213
+      ],
+      "confidence": 0.6014246940612793,
+      "stability": 0.8112244606018066
+    }
+  ],
+  "diagnosis": {
+    "full_report": "FINDINGS:\nThe image is a sagittal MRI of the left foot and ankle.\n\nBones: The visualized bones of the foot and ankle appear intact without evidence of fracture or significant bone marrow edema. There is no evidence of osteochondral lesions. The talar dome is intact. The subtalar joints are unremarkable. The navicular bone is unremarkable. The cuneiforms and metatarsals are unremarkable. The visualized portions of the tibia and fibula are unremarkable.\n\nJoint spaces: The ankle joint space is preserved. There is no evidence of significant joint effusion.\n\nSoft tissues: The visualized muscles and tendons appear normal in thickness and signal characteristics. There is no evidence of muscle tear or tendon rupture. The ligaments are unremarkable.\n\nIMPRESSION:\n- Normal MRI of the left foot and ankle.\n\nRECOMMENDATIONS:\nNo further imaging is recommended. Clinical correlation is advised.",
+    "mentioned_regions": [
+      "navicular",
+      "medial cuneiform",
+      "intermediate cuneiform",
+      "lateral cuneiform",
+      "tibia",
+      "fibula",
+      "tibiotalar joint",
+      "talonavicular joint",
+      "calcaneocuboid joint",
+      "first metatarsal",
+      "second metatarsal",
+      "third metatarsal",
+      "fourth metatarsal",
+      "fifth metatarsal",
+      "lisfranc joint",
+      "extensor digitorum longus tendon",
+      "extensor digitorum brevis tendon",
+      "tibialis anterior tendon",
+      "tibialis posterior tendon",
+      "flexor digitorum longus tendon",
+      "flexor hallucis longus tendon",
+      "achilles tendon"
+    ],
+    "num_mentioned": 22
+  }
+}

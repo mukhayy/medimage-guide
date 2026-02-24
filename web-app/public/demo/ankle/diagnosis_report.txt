@@ -1,0 +1,21 @@
+MRI ANALYSIS REPORT
+Generated: ankle
+Regions Identified: 24
+Regions Mentioned in Diagnosis: 22
+
+============================================================
+
+FINDINGS:
+The image is a sagittal MRI of the left foot and ankle.
+
+Bones: The visualized bones of the foot and ankle appear intact without evidence of fracture or significant bone marrow edema. There is no evidence of osteochondral lesions. The talar dome is intact. The subtalar joints are unremarkable. The navicular bone is unremarkable. The cuneiforms and metatarsals are unremarkable. The visualized portions of the tibia and fibula are unremarkable.
+
+Joint spaces: The ankle joint space is preserved. There is no evidence of significant joint effusion.
+
+Soft tissues: The visualized muscles and tendons appear normal in thickness and signal characteristics. There is no evidence of muscle tear or tendon rupture. The ligaments are unremarkable.
+
+IMPRESSION:
+- Normal MRI of the left foot and ankle.
+
+RECOMMENDATIONS:
+No further imaging is recommended. Clinical correlation is advised.

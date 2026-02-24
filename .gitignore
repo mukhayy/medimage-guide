@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+.next/
+out/
+build/
+dist/
+
+# Environment
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model checkpoints (large files)
+pipeline/checkpoints/*.pt
+pipeline/checkpoints/*.pth
+
+# Generated outputs
+pipeline/output/
+*.log
+
+# Temp files
+*.tmp
+.cache/
